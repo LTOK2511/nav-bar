@@ -1,16 +1,62 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>flexbox</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <!-- <h1 style="font-size: 100px; color: red;">FLEXBOX</h1> -->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="nav.css">
   </head>
-  <body>
-      
+  <body style="background-color: aqua;">
+    <!--navbar-->
+    <div class="nav">
+        <ul class="nav-list">
+            <li class="nav-item">Giới thiệu</li>
+            <li class="nav-item">Kết nối</li>
+            <li class="nav-item"> Tải ứng dụng</li>
+        </ul>
+        <ul class="nav-list">
+            <li class="nav-item">Đăng ký</li>
+            <li class="nav-item">Đăng nhập</li>
+        </ul>
+    </div>
+    <!-- Form layout -->
+    <div class="form-container">
+        <form action="" class="form">
+            <div class="form-row">
+                <label class="form-label" for="name">Name</label>
+                <input class="form-input" type="text" id="name">
+            </div>
+            <div class="form-row">
+                <label class="form-label" for="password">Password</label>
+                <input class="form-input" type="password" id="password">
+            </div>
+        </form>
+    </div>
+    <!-- Column layout-->
+    <div class="column-layout">
+        <div class="column-item sidebar-one">
+            <h2>Sidebar one</h2>
+            <p>abcdefghijklmnopqrstuvwxyz</p>
+            <p>111111111111111111111111111111111</p>
+            <p>2222222222222222222222222222222222</p>
+        </div>
+        <div class="column-item main-column">
+            <h2>Main column</h2>
+            <p>1234567891011121314151617181920000000000000000000000000000000000000000000000000000000000000000000000000000000</p>
+            <p>1234567891011121314151617181920000000000000000000000000000000000000000000000000000000000000000000000000000000</p>
+            <p>1234567891011121314151617181920000000000000000000000000000000000000000000000000000000000000000000000000000000</p>
+            <p>1234567891011121314151617181920000000000000000000000000000000000000000000000000000000000000000000000000000000</p>
+            <p>1234567891011121314151617181920000000000000000000000000000000000000000000000000000000000000000000000000000000</p>
+        </div>
+        <div class="column-item sidebar-two">
+            <h2>Sidebar two</h2>
+            <p>3333333333333333333333333333333333</p>
+        </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
